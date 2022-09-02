@@ -13,6 +13,7 @@ body {
 h1,
 h2,
 h3,
+.center_link,
 footer {
   text-align: center;
 }
@@ -128,7 +129,12 @@ p {
  padding: 0 50px;
 }
 
+section ul {
+  text-align: center;
+}
+
 section li {
+  display: inline-block;
   text-align: center;
   padding: 15px;
   margin: 20px auto;
