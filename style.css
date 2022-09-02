@@ -1,0 +1,151 @@
+* {
+  box-sizing: border;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: gray;
+  background-image: linear-gradient(-45deg, lightgray, gray);
+  font-family: Helvetica;
+}
+
+h1,
+h2,
+h3,
+footer {
+  text-align: center;
+}
+
+h1,
+nav,
+section,
+img {
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+h1 {
+  font-size: 10px;
+  letter-spacing: 7px;
+  color: white;
+  background-color: gray;
+  padding: 5px;
+}
+
+nav {
+  background-image: url("./animegirl.jpg");
+  background-position: left 35%;
+  background-size: cover;
+  padding: 15px;
+  border: 3px double #53C0F6;
+  margin: 20px 180px;
+  font-size: 13px;
+}
+
+.nav_image {
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  letter-spacing: 2px;
+}
+
+nav li,
+nav a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+nav li:hover,
+nav a:hover {
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+section {
+  background-color: white;
+  border: 3px double #53C0F6;
+  font-size: 15px;
+  min-height: 500px;
+  padding: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+nav,
+section,
+section a {
+  border-radius: 7px;
+}
+
+section img {
+  display: block;
+  padding: 15px;
+  margin: 30px auto;
+  max-width: 700px;
+  max-height: 700px;
+}
+
+
+h3 {
+  padding: 10px
+}
+
+h6 {
+  font-style: italic;
+  opacity: .8;
+}
+
+h2,
+p {
+ margin: 20px auto;
+}
+
+section li {
+  text-align: center;
+  padding: 15px;
+  margin: 20px auto;
+}
+
+section a {
+  color: dimgray;
+  background-color: #53C0F6;
+  text-decoration: none;
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+section a:hover {
+  color: white;
+  background-color: gray;
+  border: 1px solid #53C0F6;
+}
+
+footer {
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+footer a {
+  color: dimgray;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #53C0F6;
+}
+
+div.center_link {
+  margin: 30px;
+}
