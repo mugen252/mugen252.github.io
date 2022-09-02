@@ -1,5 +1,5 @@
 * {
-  box-sizing: border;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -30,16 +30,20 @@ h1 {
   color: white;
   background-color: gray;
   padding: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 
 nav {
-  background-image: url("./animegirl.jpg");
+  background-image: url("./animegirl.png");
   background-position: left 35%;
   background-size: cover;
   padding: 15px;
   border: 3px double #53C0F6;
   margin: 20px 180px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .nav_image {
@@ -70,6 +74,18 @@ nav li:hover,
 nav a:hover {
   font-weight: bold;
   letter-spacing: 5px;
+}
+
+.leftpane {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.rightpane {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 section {
@@ -109,6 +125,7 @@ h6 {
 h2,
 p {
  margin: 20px auto;
+ padding: 0 50px;
 }
 
 section li {
@@ -134,7 +151,8 @@ section a:hover {
 
 footer {
   font-size: 10px;
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 footer a {
